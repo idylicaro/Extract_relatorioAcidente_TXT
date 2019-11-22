@@ -1,4 +1,4 @@
-# AtividadeEd1
+# ETL da solução proposta para um desafio de estrutura de dados I
 Essa solução tem que  processar 7.595 relatorios de acidentes,cada linha do arquivo "acidentes.txt" contem 10 parametros que sao separados por ';'.
 
 O formato aceito na linha é :
