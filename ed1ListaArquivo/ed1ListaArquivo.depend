@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1574448627 source:c:\users\dracula castle\documents\atividadeed1\ed1listaarquivo\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"EntradaArquivo.h"
+
+1574448623 c:\users\dracula castle\documents\atividadeed1\ed1listaarquivo\entradaarquivo.h
+	<iostream>
+	<fstream>
+	<string>
+
