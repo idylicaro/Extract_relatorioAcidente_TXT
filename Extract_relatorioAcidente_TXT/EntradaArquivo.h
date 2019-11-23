@@ -16,7 +16,7 @@ struct Acidente{
     int x9;  //nao especificado por quem disponibilizou o material
     string description;
 };
-/*Funções*/
+/*FunÃ§Ãµes*/
 void separaElementos(string linha,Acidente &obj);
 
 
@@ -44,7 +44,7 @@ void getAtributos(){
 
 void separaElementos(string linha,Acidente &obj){
     int y = 0;  // para diferenciar os atributos
-    int z = 0; // rodar atribuições referentes a prencher os atributos da struct;
+    int z = 0; // rodar atribuiÃ§Ãµes referentes a prencher os atributos da struct;
     string temp;
     for(int i=0;i<linha.size();i++){
         if(linha[i]==';'){
@@ -57,7 +57,7 @@ void separaElementos(string linha,Acidente &obj){
         switch(y){
         case 0:
         temp += linha[i];
-        obj.id = stoi(temp);  // essa função so ta disponivel do c++11
+        obj.id = stoi(temp);  // essa funÃ§Ã£o so ta disponivel do c++11
             break;
         case 1:
         obj.cidade += linha[i];
@@ -90,7 +90,7 @@ void separaElementos(string linha,Acidente &obj){
             break;
         default:
             cout <<" Parametro errado!"<<endl;
-            system("pause");
+            
         }
 
 
