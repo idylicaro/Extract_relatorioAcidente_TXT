@@ -30,12 +30,9 @@ void getAtributos(){
         struct Acidente obj;
 
         while(getline(arquivo,linha)){
-        //getline(arquivo,linha);
+ 
         separaElementos(linha,obj);
-        cout << "PROCESSANDO..." <<endl;
-        cout <<"Concluido :"<<tam++<<endl;
-        //cout <<obj.id<<endl;  // para teste
-        system("cls");
+        tam++;
         }
         cout <<"FORAM PROCESSADOS :"<<tam <<endl;
 
