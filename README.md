@@ -1,3 +1,4 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/idylicaro/extract_relatorioacidente_txt/badge)](https://www.codefactor.io/repository/github/idylicaro/extract_relatorioacidente_txt)
 # ETL da solução proposta para um desafio de estrutura de dados I
 este programa tem finalidade de recolher relatórios separados por linhas tendo esses dados recolher eles para uma struct e assim manipulando esses atributos da forma necessária.
 
